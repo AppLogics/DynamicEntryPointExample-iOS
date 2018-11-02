@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4126A3C218BF05100E95452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4126A3B218BF05100E95452 /* AppDelegate.swift */; };
+		B4126A41218BF05100E95452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4126A3F218BF05100E95452 /* Main.storyboard */; };
+		B4126A44218BF05100E95452 /* Dynamic_Entry_Point_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4126A42218BF05100E95452 /* Dynamic_Entry_Point_Example.xcdatamodeld */; };
+		B4126A46218BF05100E95452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4126A45218BF05100E95452 /* Assets.xcassets */; };
+		B4126A49218BF05100E95452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4126A47218BF05100E95452 /* LaunchScreen.storyboard */; };
+		B4126A54218BF05100E95452 /* Dynamic_Entry_Point_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4126A53218BF05100E95452 /* Dynamic_Entry_Point_ExampleTests.swift */; };
+		B4126A5F218BF05100E95452 /* Dynamic_Entry_Point_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4126A5E218BF05100E95452 /* Dynamic_Entry_Point_ExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4126A50218BF05100E95452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4126A30218BF05100E95452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4126A37218BF05100E95452;
+			remoteInfo = "Dynamic Entry Point Example";
+		};
+		B4126A5B218BF05100E95452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4126A30218BF05100E95452 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4126A37218BF05100E95452;
+			remoteInfo = "Dynamic Entry Point Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4126A38218BF05100E95452 /* Dynamic Entry Point Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Entry Point Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4126A3B218BF05100E95452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4126A40218BF05100E95452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4126A43218BF05100E95452 /* Dynamic_Entry_Point_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dynamic_Entry_Point_Example.xcdatamodel; sourceTree = "<group>"; };
+		B4126A45218BF05100E95452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4126A48218BF05100E95452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4126A4A218BF05100E95452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4126A4F218BF05100E95452 /* Dynamic Entry Point ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic Entry Point ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4126A53218BF05100E95452 /* Dynamic_Entry_Point_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_Entry_Point_ExampleTests.swift; sourceTree = "<group>"; };
+		B4126A55218BF05100E95452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4126A5A218BF05100E95452 /* Dynamic Entry Point ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic Entry Point ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4126A5E218BF05100E95452 /* Dynamic_Entry_Point_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_Entry_Point_ExampleUITests.swift; sourceTree = "<group>"; };
+		B4126A60218BF05100E95452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4126A35218BF05100E95452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4126A4C218BF05100E95452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4126A57218BF05100E95452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4126A2F218BF05100E95452 = {
+			isa = PBXGroup;
+			children = (
+				B4126A3A218BF05100E95452 /* Dynamic Entry Point Example */,
+				B4126A52218BF05100E95452 /* Dynamic Entry Point ExampleTests */,
+				B4126A5D218BF05100E95452 /* Dynamic Entry Point ExampleUITests */,
+				B4126A39218BF05100E95452 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4126A39218BF05100E95452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4126A38218BF05100E95452 /* Dynamic Entry Point Example.app */,
+				B4126A4F218BF05100E95452 /* Dynamic Entry Point ExampleTests.xctest */,
+				B4126A5A218BF05100E95452 /* Dynamic Entry Point ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4126A3A218BF05100E95452 /* Dynamic Entry Point Example */ = {
+			isa = PBXGroup;
+			children = (
+				B4126A3B218BF05100E95452 /* AppDelegate.swift */,
+				B4126A3F218BF05100E95452 /* Main.storyboard */,
+				B4126A45218BF05100E95452 /* Assets.xcassets */,
+				B4126A47218BF05100E95452 /* LaunchScreen.storyboard */,
+				B4126A4A218BF05100E95452 /* Info.plist */,
+				B4126A42218BF05100E95452 /* Dynamic_Entry_Point_Example.xcdatamodeld */,
+			);
+			path = "Dynamic Entry Point Example";
+			sourceTree = "<group>";
+		};
+		B4126A52218BF05100E95452 /* Dynamic Entry Point ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4126A53218BF05100E95452 /* Dynamic_Entry_Point_ExampleTests.swift */,
+				B4126A55218BF05100E95452 /* Info.plist */,
+			);
+			path = "Dynamic Entry Point ExampleTests";
+			sourceTree = "<group>";
+		};
+		B4126A5D218BF05100E95452 /* Dynamic Entry Point ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4126A5E218BF05100E95452 /* Dynamic_Entry_Point_ExampleUITests.swift */,
+				B4126A60218BF05100E95452 /* Info.plist */,
+			);
+			path = "Dynamic Entry Point ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4126A37218BF05100E95452 /* Dynamic Entry Point Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4126A63218BF05100E95452 /* Build configuration list for PBXNativeTarget "Dynamic Entry Point Example" */;
+			buildPhases = (
+				B4126A34218BF05100E95452 /* Sources */,
+				B4126A35218BF05100E95452 /* Frameworks */,
+				B4126A36218BF05100E95452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Entry Point Example";
+			productName = "Dynamic Entry Point Example";
+			productReference = B4126A38218BF05100E95452 /* Dynamic Entry Point Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4126A4E218BF05100E95452 /* Dynamic Entry Point ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4126A66218BF05100E95452 /* Build configuration list for PBXNativeTarget "Dynamic Entry Point ExampleTests" */;
+			buildPhases = (
+				B4126A4B218BF05100E95452 /* Sources */,
+				B4126A4C218BF05100E95452 /* Frameworks */,
+				B4126A4D218BF05100E95452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4126A51218BF05100E95452 /* PBXTargetDependency */,
+			);
+			name = "Dynamic Entry Point ExampleTests";
+			productName = "Dynamic Entry Point ExampleTests";
+			productReference = B4126A4F218BF05100E95452 /* Dynamic Entry Point ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4126A59218BF05100E95452 /* Dynamic Entry Point ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4126A69218BF05100E95452 /* Build configuration list for PBXNativeTarget "Dynamic Entry Point ExampleUITests" */;
+			buildPhases = (
+				B4126A56218BF05100E95452 /* Sources */,
+				B4126A57218BF05100E95452 /* Frameworks */,
+				B4126A58218BF05100E95452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4126A5C218BF05100E95452 /* PBXTargetDependency */,
+			);
+			name = "Dynamic Entry Point ExampleUITests";
+			productName = "Dynamic Entry Point ExampleUITests";
+			productReference = B4126A5A218BF05100E95452 /* Dynamic Entry Point ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4126A30218BF05100E95452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "AppLogics Solutions Ltd.";
+				TargetAttributes = {
+					B4126A37218BF05100E95452 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B4126A4E218BF05100E95452 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B4126A37218BF05100E95452;
+					};
+					B4126A59218BF05100E95452 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B4126A37218BF05100E95452;
+					};
+				};
+			};
+			buildConfigurationList = B4126A33218BF05100E95452 /* Build configuration list for PBXProject "Dynamic Entry Point Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4126A2F218BF05100E95452;
+			productRefGroup = B4126A39218BF05100E95452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4126A37218BF05100E95452 /* Dynamic Entry Point Example */,
+				B4126A4E218BF05100E95452 /* Dynamic Entry Point ExampleTests */,
+				B4126A59218BF05100E95452 /* Dynamic Entry Point ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4126A36218BF05100E95452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4126A49218BF05100E95452 /* LaunchScreen.storyboard in Resources */,
+				B4126A46218BF05100E95452 /* Assets.xcassets in Resources */,
+				B4126A41218BF05100E95452 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4126A4D218BF05100E95452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4126A58218BF05100E95452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4126A34218BF05100E95452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4126A44218BF05100E95452 /* Dynamic_Entry_Point_Example.xcdatamodeld in Sources */,
+				B4126A3C218BF05100E95452 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4126A4B218BF05100E95452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4126A54218BF05100E95452 /* Dynamic_Entry_Point_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4126A56218BF05100E95452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4126A5F218BF05100E95452 /* Dynamic_Entry_Point_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4126A51218BF05100E95452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4126A37218BF05100E95452 /* Dynamic Entry Point Example */;
+			targetProxy = B4126A50218BF05100E95452 /* PBXContainerItemProxy */;
+		};
+		B4126A5C218BF05100E95452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4126A37218BF05100E95452 /* Dynamic Entry Point Example */;
+			targetProxy = B4126A5B218BF05100E95452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4126A3F218BF05100E95452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4126A40218BF05100E95452 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4126A47218BF05100E95452 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4126A48218BF05100E95452 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4126A61218BF05100E95452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4126A62218BF05100E95452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4126A64218BF05100E95452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Dynamic Entry Point Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.AppLogics.DynamicEntryPointExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4126A65218BF05100E95452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Dynamic Entry Point Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.AppLogics.DynamicEntryPointExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4126A67218BF05100E95452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic Entry Point ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.applogics.Dynamic-Entry-Point-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Entry Point Example.app/Dynamic Entry Point Example";
+			};
+			name = Debug;
+		};
+		B4126A68218BF05100E95452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic Entry Point ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.applogics.Dynamic-Entry-Point-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Entry Point Example.app/Dynamic Entry Point Example";
+			};
+			name = Release;
+		};
+		B4126A6A218BF05100E95452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic Entry Point ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.applogics.Dynamic-Entry-Point-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic Entry Point Example";
+			};
+			name = Debug;
+		};
+		B4126A6B218BF05100E95452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic Entry Point ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.applogics.Dynamic-Entry-Point-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic Entry Point Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4126A33218BF05100E95452 /* Build configuration list for PBXProject "Dynamic Entry Point Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4126A61218BF05100E95452 /* Debug */,
+				B4126A62218BF05100E95452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4126A63218BF05100E95452 /* Build configuration list for PBXNativeTarget "Dynamic Entry Point Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4126A64218BF05100E95452 /* Debug */,
+				B4126A65218BF05100E95452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4126A66218BF05100E95452 /* Build configuration list for PBXNativeTarget "Dynamic Entry Point ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4126A67218BF05100E95452 /* Debug */,
+				B4126A68218BF05100E95452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4126A69218BF05100E95452 /* Build configuration list for PBXNativeTarget "Dynamic Entry Point ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4126A6A218BF05100E95452 /* Debug */,
+				B4126A6B218BF05100E95452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4126A42218BF05100E95452 /* Dynamic_Entry_Point_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4126A43218BF05100E95452 /* Dynamic_Entry_Point_Example.xcdatamodel */,
+			);
+			currentVersion = B4126A43218BF05100E95452 /* Dynamic_Entry_Point_Example.xcdatamodel */;
+			path = Dynamic_Entry_Point_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4126A30218BF05100E95452 /* Project object */;
+}
